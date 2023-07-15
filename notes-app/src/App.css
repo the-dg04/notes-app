@@ -1,0 +1,74 @@
+.static_mode_container{
+  background-color:#badc58;
+  height:150px;
+  width:200px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  padding:5px;
+}
+body{
+  background-color:#30336b;
+  /* color:#130f40; */
+}
+.main_container{
+  width:300px;
+  align-items: center;
+  align-content: center;
+}
+.delete_button{
+  background-color: #6ab04c;
+  border:none;
+  border-radius: 3px;
+  position: absolute;
+  bottom:5px;
+  right:5px;
+}
+.note_title{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.note_data{
+  font-size: 14px;
+  font-family: sans-serif;
+}
+.edit_mode_container{
+  background-color:#badc58;
+  height:150px;
+  width:200px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  padding:5px;
+  
+}
+.save_button{
+  background-color: #6ab04c;
+  border:none;
+  border-radius: 3px;
+  position: absolute;
+  bottom:5px;
+  right:5px;
+}
+.edit_title_area{
+  border:none;
+  background-color: #badc58;
+  resize:none;
+}
+.edit_data_area{
+  border:none;
+  background-color: #badc58;
+  resize:none;
+}
+.add_note_button{
+  border:none;
+  background-color: #6ab04c;
+  margin-left: 36%;
+  width:28%;
+}

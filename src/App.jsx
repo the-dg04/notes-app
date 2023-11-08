@@ -64,10 +64,12 @@ export default function App() {
   }
  return (
   <div className='main_container'>
-    {notes}
     <button className='add_note_button' onClick={()=>{
       add_note();
     }}>Add Note</button>
+    <div className="notes-container">
+      {notes}
+    </div>
   </div>
  );
 }

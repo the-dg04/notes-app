@@ -9,15 +9,29 @@
   margin-bottom: 10px;
   position: relative;
   padding:5px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  gap:10px;
 }
 body{
   background-color:#30336b;
   /* color:#130f40; */
 }
 .main_container{
-  width:300px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  align-content: center;
+  gap:10px;
+
+  /* justify-content: center; */
+}
+.notes-container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height:90vh;
+  width:100vw;
+  
 }
 .delete_button{
   background-color: #6ab04c;
@@ -46,6 +60,9 @@ body{
   margin-bottom: 10px;
   position: relative;
   padding:5px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  gap:10px;
   
 }
 .save_button{
@@ -69,6 +86,7 @@ body{
 .add_note_button{
   border:none;
   background-color: #6ab04c;
-  margin-left: 36%;
-  width:28%;
+  /* margin-left: 36%; */
+  min-width: 100px;
+  width:36%;
 }

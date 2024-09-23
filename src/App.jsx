@@ -21,6 +21,7 @@ function Note(){
     if(enabled) return true;
     else return false;
   }
+  // niqqa
   if(enabled){
     if(edit_mode){
       return (
